@@ -1,0 +1,15 @@
+BREW//POP Android Cloud Build 2.0.7
+
+Expected critical files:
+.github/workflows/build-apk.yml
+app/build.gradle
+app/src/main/AndroidManifest.xml
+app/src/main/java/com/fabiopixel/brewpop/MainActivity.java
+app/src/main/assets/index.html
+
+Native mode:
+- portrait
+- immersive sticky
+- system bars transient by swipe
+- local WebViewAssetLoader
+- Android native clipboard/share bridge
